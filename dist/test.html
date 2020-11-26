@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #footer{
+            background-color:rgb(126, 119, 119);
+            padding:25px 0px;
+        }
+        #footer .container{
+            display:grid;
+            grid-template-columns: repeat(2,2fr);
+            text-align:center;
+        }
+        #footer .social{
+            align-items:center;
+        } 
+        #footer .social .fab{
+
+      font-size:17px;
+      margin-right:20px;
+      border:2px solid #fefefe;
+      border-radius:50%;
+      
+      background-color:red;
+      padding:15px;
+      text-align:center;
+      transition:all 0.3
+        }
+      #footer .social .fab:hover{
+         background-color:blue;
+      }
+    </style>
+</head>
+<body>
+    <section id="footer">
+        <div class="container">
+            <div>
+             <p style="padding:15px;">Copyright &copy; 2020, ALL Rights Reserved</p>
+            </div>
+            <div class="social">
+            <i class="fab fa-twitter twi"></i>
+            <i class="fab fa-instagram ins"></i>
+            <i class="fab fa-linkedin link"></i>
+            <i class="fab fa-youtube you"></i>
+            <i class="fab fa-github git"></i>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
